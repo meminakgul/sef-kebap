@@ -237,14 +237,12 @@ export default function Home() {
           <div className="testimonial-inner">
             <div className="testimonial-stars">★ ★ ★ ★ ★</div>
             <blockquote>
-              "Yıllarca Adana'nın en iyi kebabını aramak için tüm Seyhan'ı gezdim.
-              Şef Kebap'ı bulduğumda aramayı bıraktım. Her lokmada geleneksel
-              Adana ruhunu hissedebiliyorsunuz."
+              "New York'dan kalkıp şef kebap için yollara düştüm. Cok memnun kaldım. Yemekler müthiş lezzetli. Çalışanların hepsi cok ilgili ve güler yüzlüler. Ben 10 yıldız olsa 10 yildiz vereceğim o derece 😁 Muhakkak gidilmesi gereken bir yer...."
             </blockquote>
             <div className="testimonial-author">
-              <div className="testimonial-avatar">A</div>
+              <div className="testimonial-avatar">D</div>
               <div className="testimonial-name">
-                <strong>Ahmet Yılmaz</strong>
+                <strong>Dilara Uysal</strong>
                 <small>Adana, Türkiye · Google Yorumu</small>
               </div>
             </div>
