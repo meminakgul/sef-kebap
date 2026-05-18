@@ -34,7 +34,7 @@
   }
 
   .gold-line-left {
-    @apply w-12 h-px bg-gold;
+    @apply w-12 h-px bg-yellow-500;
   }
 
   /* Section spacing */
