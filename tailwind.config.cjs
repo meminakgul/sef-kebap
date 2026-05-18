@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -61,30 +61,16 @@ export default {
 
       keyframes: {
         fadeUp: {
-          from: {
-            opacity: 0,
-            transform: "translateY(20px)",
-          },
-          to: {
-            opacity: 1,
-            transform: "translateY(0)",
-          },
+          from: { opacity: 0, transform: "translateY(20px)" },
+          to: { opacity: 1, transform: "translateY(0)" },
         },
         fadeIn: {
-          from: {
-            opacity: 0,
-          },
-          to: {
-            opacity: 1,
-          },
+          from: { opacity: 0 },
+          to: { opacity: 1 },
         },
         shimmer: {
-          from: {
-            backgroundPosition: "-200% 0",
-          },
-          to: {
-            backgroundPosition: "200% 0",
-          },
+          from: { backgroundPosition: "-200% 0" },
+          to: { backgroundPosition: "200% 0" },
         },
       },
     },
